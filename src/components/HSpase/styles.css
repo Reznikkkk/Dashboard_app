@@ -1,0 +1,30 @@
+
+.h-space {
+    height: 100%;
+}
+
+.m {
+    width: 0.5rem;
+}
+
+.l {
+    width: 1rem;
+}
+
+.xl {
+    width: 1.5rem;
+}
+
+@media (max-width: 910px) {
+    .m {
+        width: 0.4rem;
+    }
+
+    .l {
+        width: 0.6rem;
+    }
+
+    .xl {
+        width: 0.8rem;
+    }
+}

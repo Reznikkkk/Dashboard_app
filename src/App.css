@@ -1,0 +1,21 @@
+.wrapper {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+
+.title {
+  font-size: 2.5rem;
+}
+
+@media (max-width: 910px) {
+  .wrapper {
+    max-width: 100%;
+    padding: 0.5rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+}

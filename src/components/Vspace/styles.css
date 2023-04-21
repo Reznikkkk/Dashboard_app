@@ -1,0 +1,29 @@
+.v-space {
+    width: 100%;
+}
+
+.m {
+    height: 1rem;
+}
+
+.l {
+    height: 2rem;
+}
+
+.xl {
+    height: 3rem;
+}
+
+@media (max-width: 910px) {
+    .m {
+        height: 0.5rem;
+    }
+
+    .l {
+        height: 0.8rem;
+    }
+
+    .xl {
+        height: 1rem;
+    }
+}

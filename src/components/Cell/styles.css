@@ -1,0 +1,12 @@
+.users-cell {
+    min-width: 30%;
+    max-width: 30%;
+}
+
+
+@media (max-width: 910px) {
+    .users-cell {
+        min-width: 75%;
+        max-width: 75%;
+    }
+}
